@@ -3,8 +3,8 @@ import time
 import os
 import json
 
-TOKEN = os.environ.get("8815425327:AAFbjc9A-sWFKYshHGGNcg0fpHmljUAyPTw")
-ASSEMBLYAI_KEY = os.environ.get("e44ffe593a3c43e0b9ad4c8e4537d467")
+TOKEN = os.environ.get("TOKEN")
+ASSEMBLYAI_KEY = os.environ.get("ASSEMBLYAI_KEY")
 
 BASE_URL = f"https://api.telegram.org/bot{TOKEN}"
 CHANNEL_USERNAME = "Acc_po"
